@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<!-- 此脚本是为了副职业的打怪练级，因为需要激活1-50的所有的传送点，基本都是3级一跳 -->
+<Profile>
+	<Name>Level1-60</Name>
+	<KillRadius>80</KillRadius>
+	<GrindAreas>
+		<!-- 区域&怪 黑衣森林中央区 1~4级：松鼠，花甲虫，丛林蘑菇-->
+		<GrindArea name="Area1-5">
+			<Hotspots>
+				<Hotspot name="Area1-5" XYZ = "55.13816, 4.260183, -193.8945" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="37"/>
+				<TargetMob id="49"/>
+				<TargetMob id="47"/>
+			</TargetMobs>
+			<MinLevel>1</MinLevel>
+			<MaxLevel>5</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林中央区 4~7级：水元精，沙蚤，深黑水蜥，小口花-->		  
+		<GrindArea name="Area5-8">
+			<Hotspots>
+				<Hotspot name="Area5-8" XYZ = "276.8333, -8.816886, -83.48341" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="43"/>
+				<TargetMob id="196"/>
+				<TargetMob id="56"/>
+				<TargetMob id="32"/>
+			</TargetMobs>
+			<MinLevel>5</MinLevel>
+			<MaxLevel>8</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林中央区 8级：野猪幼崽-->		  
+		<GrindArea name="Area8-10">
+			<Hotspots>
+				<Hotspot name="Area8-10" XYZ = "380.9235, 15.96426, 108.9464" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="195"/>
+			</TargetMobs>
+			<MinLevel>8</MinLevel>
+			<MaxLevel>10</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林中央区 10级：树生蛞蝓，黄蜂群-->		  
+		<GrindArea name="Area10-15">
+			<Hotspots>
+				<Hotspot name="Area10-15" XYZ = "186.8807, -32.75785, 399.4349" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="39"/>
+				<TargetMob id="54"/>
+			</TargetMobs>
+			<MinLevel>10</MinLevel>
+			<MaxLevel>15</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林东区 16级：巨蝇、仙境蘑菇-->		  
+		<GrindArea name="Area15-20">
+			<Hotspots>
+				<Hotspot name="Area15-20" XYZ = "-131.1739, 2.077107, 354.2208" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="220"/>
+				<TargetMob id="36"/>
+				<TargetMob id="7"/>
+			</TargetMobs>
+			<MinLevel>15</MinLevel>
+			<MaxLevel>20</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林东区 21级：群蔓大口花、凝血巨蝇-->		  
+		<GrindArea name="Area20-25">
+			<Hotspots>
+				<Hotspot name="Area20-25" XYZ = "52.71597, 6.82387, 402.8774" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="2157"/>
+				<TargetMob id="214"/>
+			</TargetMobs>
+			<MinLevel>20</MinLevel>
+			<MaxLevel>25</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林南区 26级：雄羚羊-->		  
+		<GrindArea name="Area25-30">
+			<Hotspots>
+				<Hotspot name="Area25-30" XYZ = "261.1656, 10.2788, -151.8589" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="4"/>
+			</TargetMobs>
+			<MinLevel>25</MinLevel>
+			<MaxLevel>30</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林南区 31~34级：大口鬼鮟鱇，精金龟-->		  
+		<GrindArea name="Area30-35">
+			<Hotspots>
+				<Hotspot name="Area30-35" XYZ = "-161.3505, -0.4275208, 461.4763" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="235"/>
+				<TargetMob id="34"/>
+			</TargetMobs>
+			<MinLevel>30</MinLevel>
+			<MaxLevel>35</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林南区 35级：深空山鼠，小狐蝠，树精，37级：树精，小狐蝠，深空山鼠-->		  
+		<GrindArea name="Area35-40">
+			<Hotspots>
+				<Hotspot name="Area35-40" XYZ = "63.15496, 17.99286, 231.2432" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="171"/>
+				<TargetMob id="170"/>
+				<TargetMob id="24"/>
+			</TargetMobs>
+			<MinLevel>35</MinLevel>
+			<MaxLevel>40</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林东区 41~43级：无常魔花凯西、嚎叫之妖精、魔界花、叹息之妖精、风元精、毒瑚菌、咆哮之精灵-->			  
+		<GrindArea name="Area40-45">
+			<Hotspots>
+				<Hotspot name="Area40-45" XYZ = "226.7323, 3.922807, 162.7569" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="33"/>
+				<TargetMob id="222"/>
+				<TargetMob id="115"/>
+			</TargetMobs>
+			<MinLevel>40</MinLevel>
+			<MaxLevel>45</MaxLevel>
+		</GrindArea>
+		<!-- 区域&怪 黑衣森林南区 45级：小狐狸-->		  
+		<GrindArea name="Area45-50">
+			<Hotspots>
+				<Hotspot name="Area45-50" XYZ = "444.9997, 0.4182798, 155.4423" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id="112"/>
+				<TargetMob id="15"/>
+			</TargetMobs>
+			<MinLevel>45</MinLevel>
+			<MaxLevel>50</MaxLevel>
+		</GrindArea>
+				  
+		<!-- <GrindArea name="Area50-55">
+			<Hotspots>
+				<Hotspot name="Area50-55" XYZ = "" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id=""/>
+			</TargetMobs>
+			<MinLevel>50</MinLevel>
+			<MaxLevel>55</MaxLevel>
+		</GrindArea>
+				  
+		<GrindArea name="Area55-60">
+			<Hotspots>
+				<Hotspot name="Area55-60" XYZ = "" Radius="80"/>
+			</Hotspots>
+			<TargetMobs>
+				<TargetMob id=""/>
+			</TargetMobs>
+			<MinLevel>55</MinLevel>
+			<MaxLevel>60</MaxLevel>
+		</GrindArea> -->
+	</GrindAreas>
+
+	<Order>
+		<If Condition="Core.Player.ClassLevel &lt; 5">
+			<TeleportTo AetheryteId="3" Name="Area1-5"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 5" grindRef="Area1-5"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 8">
+			<TeleportTo AetheryteId="3" Name="Area5-8"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 8" grindRef="Area5-8"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 10">
+			<TeleportTo AetheryteId="3" Name="Area8-10"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 10" grindRef="Area8-10"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 15">
+			<TeleportTo AetheryteId="3" Name="Area10-15"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 15" grindRef="Area10-15"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 20">
+			<TeleportTo AetheryteId="4" Name="Area15-20"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 20" grindRef="Area15-20"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 25">
+			<TeleportTo AetheryteId="4" Name="Area20-25"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 25" grindRef="Area20-25"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 30">
+			<TeleportTo AetheryteId="5" Name="Area25-30"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 30" grindRef="Area25-30"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 35">
+			<TeleportTo AetheryteId="6" Name="Area30-35"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 35" grindRef="Area30-35"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 40">
+			<TeleportTo AetheryteId="6" Name="Area35-40"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 40" grindRef="Area35-40"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 45">
+			<TeleportTo AetheryteId="4" Name="Area40-45"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 45" grindRef="Area40-45"/>
+		
+		<If Condition="Core.Player.ClassLevel &lt; 50">
+			<TeleportTo AetheryteId="5" Name="Area45-50"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel &lt; 50" grindRef="Area45-50"/>
+		
+<!-- 		<If Condition="Core.Player.ClassLevel < 55">
+			<TeleportTo AetheryteId="" Name="Area50-55"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel < 55" grindRef="Area50-55"/>
+		
+		<If Condition="Core.Player.ClassLevel < 60">
+			<TeleportTo AetheryteId="" Name="Area55-60"/>
+		</If>
+		<Grind while="Core.Player.ClassLevel < 60" grindRef="Area55-60"/> -->
+	</Order>
+</Profile>
